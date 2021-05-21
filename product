@@ -1,0 +1,11 @@
+#include <iostream>
+int main() 
+{
+    int a,b;
+    std::cout << "Enter two number for the calculation: ";
+    std::cin>>a>>b;
+    std::cout<<"value of a is "<<a <<" and "<<"value of b is "<<b<<"\n";
+    int c=a*b;
+    std::cout<<"Product of "<< a <<" and "<< b << " is "<<c;
+    return 0;
+}
